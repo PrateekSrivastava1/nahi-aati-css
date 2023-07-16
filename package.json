@@ -1,6 +1,24 @@
 {
   "name": "nahi-aati-css",
   "version": "0.1.0",
+  "description": "nahi-aati-css is a lightweight and user-friendly CSS library, offering pre-designed styles for typography, buttons, forms, and etc. With a mobile-first approach, it simplifies web development, ensuring responsive and visually appealing designs.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrateekSrivastava1/nahi-aati-css"
+  },
+  "author": "Prateek Srivastava <prateeksdr4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrateekSrivastava1/nahi-aati-css/issues"
+  },
+  "homepage": "https://github.com/PrateekSrivastava1/nahi-aati-css#readme",
+  "keywords": [
+    "css library",
+    "nahi-aati-coding",
+    "nahi_aati_coding",
+    "react css library",
+    "react typescript css library"
+  ],
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -23,7 +41,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "build-library": "tsc"
   },
   "eslintConfig": {
     "extends": [
