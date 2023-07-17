@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import styled from 'styled-components';
 
-interface ButtonProps {
+type ButtonProps = {
   children: ReactNode;
   fontSize?: string;
   color?: string;
@@ -10,7 +10,7 @@ interface ButtonProps {
   buttonWithSVG?: boolean;
   borderRadius?: string;
   onClick?: any;
-}
+};
 
 const ButtonStyled = styled.button<ButtonProps>`
   padding: 10px 20px;

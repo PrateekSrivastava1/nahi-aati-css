@@ -1,12 +1,30 @@
 {
   "name": "nahi-aati-css",
   "version": "0.1.0",
-  "private": true,
+  "description": "nahi-aati-css is a lightweight and user-friendly CSS library, offering pre-designed styles for typography, buttons, forms, and etc. With a mobile-first approach, it simplifies web development, ensuring responsive and visually appealing designs.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrateekSrivastava1/nahi-aati-css"
+  },
+  "author": "Prateek Srivastava <prateeksdr4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrateekSrivastava1/nahi-aati-css/issues"
+  },
+  "homepage": "https://github.com/PrateekSrivastava1/nahi-aati-css#readme",
+  "keywords": [
+    "css library",
+    "nahi-aati-coding",
+    "nahi_aati_coding",
+    "react css library",
+    "react typescript css library"
+  ],
+  "main": "index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
+    "@types/jest": "^29.5.3",
     "@types/node": "^16.18.38",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.7",
@@ -14,20 +32,20 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "styled-components": "^6.0.4",
-    "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
     "eject": "react-scripts eject",
-    "storybook": "storybook dev -p 6006"
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build-library": "rimraf dist && tsc"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest",
       "plugin:storybook/recommended",
       "plugin:storybook/recommended"
     ]
@@ -53,10 +71,22 @@
     "@storybook/react": "^7.0.27",
     "@storybook/react-webpack5": "^7.0.27",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/jest": "^29.5.2",
     "babel-plugin-named-exports-order": "^0.0.2",
     "eslint-plugin-storybook": "^0.6.12",
     "prop-types": "^15.8.1",
+    "rimraf": "^3.0.2",
     "storybook": "^7.0.27",
-    "webpack": "^5.88.1"
+    "typescript": "^4",
+    "webpack": "^5.88.1",
+    "jest-environment-jsdom": "^29.5.0",
+    "jest": "^29.5.0",
+    "babel-jest": "^29.5.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "@PrateekSrivastava1:registry": "https://npm.pkg.github.com"
   }
 }
