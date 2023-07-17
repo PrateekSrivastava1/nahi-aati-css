@@ -66,7 +66,7 @@ Start Storybook
 
 ## Screenshots
 
-![App Screenshot](https://ibb.co/MCZvkQH)
+<img width="1512" alt="Screenshot" src="https://github.com/PrateekSrivastava1/nahi-aati-css/assets/65366517/7eb84596-74d9-4ae2-9496-025a2eec183f">
 
 ## Tech Stack
 
@@ -91,4 +91,5 @@ function App() {
   return <Component />
 }
 ```
+
 
