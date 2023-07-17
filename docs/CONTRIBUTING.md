@@ -6,7 +6,7 @@
 
 <ol>
   <li><strong>Code of Conduct</strong>: We have adopted a <a href="CODE_OF_CONDUCT.md">Code of Conduct</a> that applies to all contributors. Please read and adhere to it throughout your interactions within the project.</li>
-  <li><strong>Reporting Issues</strong>: If you encounter any bugs, have questions, or want to propose a new feature, please submit an issue on our <a href="https://github.com/your-username/nati-aati-css/issues">GitHub issue tracker</a>. Ensure that similar issues or feature requests have not been already reported or discussed.</li>
+  <li><strong>Reporting Issues</strong>: If you encounter any bugs, have questions, or want to propose a new feature, please submit an issue on our <a href="https://github.com/PrateekSrivastava1/nati-aati-css/issues">GitHub issue tracker</a>. Ensure that similar issues or feature requests have not been already reported or discussed.</li>
   <li><strong>Feature Requests</strong>: Before submitting a feature request, consider discussing it with the community. We encourage you to participate in discussions, including the ones marked with the "Feature Request" label.</li>
   <li><strong>Pull Requests (PRs)</strong>: We welcome pull requests for bug fixes and enhancements. If you plan to work on a significant change, please open an issue first to discuss the proposed changes and get feedback.</li>
   <li><strong>Branching Strategy</strong>: When making a PR, create a new branch with a descriptive name that relates to the issue or feature you're addressing (e.g., <code>feature/new-button-style</code>). Avoid using the <code>main</code> branch for direct commits.</li>
