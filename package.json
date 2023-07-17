@@ -1,6 +1,6 @@
 {
-  "name": "nahi-aati-css",
-  "version": "0.1.1",
+  "name": "@PrateekSrivastava1/nahi-aati-css",
+  "version": "0.1.2",
   "description": "nahi-aati-css is a lightweight and user-friendly CSS library, offering pre-designed styles for typography, buttons, forms, and etc. With a mobile-first approach, it simplifies web development, ensuring responsive and visually appealing designs.",
   "repository": {
     "type": "git",
