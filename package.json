@@ -1,6 +1,7 @@
 {
   "name": "@prateeksrivastava1/nahi-aati-css",
-  "version": "0.2.4",
+  "homepage": "https://PrateekSrivastava1.github.io/nahi-aati-css",
+  "version": "0.2.5",
   "description": "nahi-aati-css is a lightweight and user-friendly CSS library, offering pre-designed styles for typography, buttons, forms, and etc. With a mobile-first approach, it simplifies web development, ensuring responsive and visually appealing designs.",
   "repository": {
     "type": "git",
@@ -11,7 +12,6 @@
   "bugs": {
     "url": "https://github.com/PrateekSrivastava1/nahi-aati-css/issues"
   },
-  "homepage": "https://github.com/PrateekSrivastava1/nahi-aati-css#readme",
   "keywords": [
     "css library",
     "nahi-aati-coding",
@@ -28,6 +28,7 @@
     "@types/node": "^16.18.38",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.7",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -40,8 +41,10 @@
     "test": "jest",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build -o docs-build",
-    "build-library": "rimraf dist && tsc"
+    "build-library": "rimraf dist && tsc",
+    "build-storybook": "storybook build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -72,16 +75,16 @@
     "@storybook/react-webpack5": "^7.0.27",
     "@storybook/testing-library": "^0.0.14-next.2",
     "@types/jest": "^29.5.2",
+    "babel-jest": "^29.5.0",
     "babel-plugin-named-exports-order": "^0.0.2",
     "eslint-plugin-storybook": "^0.6.12",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
     "prop-types": "^15.8.1",
     "rimraf": "^3.0.2",
     "storybook": "^7.0.27",
     "typescript": "^4",
-    "webpack": "^5.88.1",
-    "jest-environment-jsdom": "^29.5.0",
-    "jest": "^29.5.0",
-    "babel-jest": "^29.5.0"
+    "webpack": "^5.88.1"
   },
   "files": [
     "dist"
