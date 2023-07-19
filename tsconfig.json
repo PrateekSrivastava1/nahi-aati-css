@@ -20,7 +20,7 @@
     "outDir": "./dist",
     "baseUrl": "./src",
     "paths": {
-      "@prateeksrivastava1/nahi-aati-css": ["../packages/nahi-aati-css"]
+      "@prateeksrivastava1/nahi-aati-css": ["./Components"]
     }
   },
   "include": ["src/**/*"],
