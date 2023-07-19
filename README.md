@@ -1,14 +1,10 @@
-
 # nahi-aati-css
 
 nahi-aati-css is a lightweight and user-friendly CSS library, offering pre-designed styles for typography, buttons, forms, and etc. With a mobile-first approach, it simplifies web development, ensuring responsive and visually appealing designs.
 
-
 ## Badges
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
-
 
 ## Contributing
 
@@ -20,17 +16,15 @@ Please adhere to this project's [`CODE_OF_CONDUCT.md`](https://github.com/Pratee
 
 ## Installation
 
-Install my-project with npm
+Install nahi-aati-css with npm
 
 ```bash
-  npm install nati-aati-css
-  cd nati-aati-css
+  npm install @prateeksrivastava1/nahi-aati-css --registry=https://npm.pkg.github.com/PrateekSrivastava1
 ```
-    
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
 
 ## Run Locally
 
@@ -66,12 +60,11 @@ Start Storybook
 
 ## Screenshots
 
-<img width="1512" alt="Screenshot" src="https://github.com/PrateekSrivastava1/nahi-aati-css/assets/65366517/7eb84596-74d9-4ae2-9496-025a2eec183f">
+![](https://github.com/PrateekSrivastava1/media/assets/65366517/a3cb343b-169b-44ba-82e7-2d40c079a968)
 
 ## Tech Stack
 
-**Client:** React, Typescript, Styled Component, Storybook, Jest.
-
+**Client:** React, Typescript, Styled Component, Storybook, Jest, Node.
 
 ## Running Tests
 
@@ -81,15 +74,12 @@ To run tests, run the following command
   npm run test
 ```
 
-
 ## Usage/Examples
 
-```javascript
-import Component from 'nahi-aati-css/src/Components/Component'
+```typescript
+import { Button } from '@prateeksrivastava1/nahi-aati-css';
 
 function App() {
-  return <Component />
+  return <Button />;
 }
 ```
-
-
