@@ -18,7 +18,7 @@ const ButtonStyled = styled.button<ButtonProps>`
   color: ${props => props.color || 'white'};
   background-color: ${props => (props.kind === 'secondary' ? 'lightgray' : '#74b4fe')};
   border: ${props => props.border || 'none'};
-  border-radius: ${props => props.borderRadius || '11px'};
+  border-radius: ${props => props.borderRadius || '10px'};
   cursor: pointer;
   display: flex;
   align-items: center;
