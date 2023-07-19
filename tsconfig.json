@@ -17,7 +17,11 @@
 
     // added
     "declaration": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "paths": {
+      "@prateeksrivastava1/nahi-aati-css": ["../packages/nahi-aati-css"]
+    }
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
