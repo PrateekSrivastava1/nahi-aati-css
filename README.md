@@ -26,9 +26,9 @@ Install nahi-aati-css with npm
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## Click here to play with UI Components :p
+## Want to play with some UI Components? just click on the link given below : D
 
-[nahi-aati-css](https://prateeksrivastava1.github.io/nahi-aati-css/)
+[**nahi-aati-css**](https://prateeksrivastava1.github.io/nahi-aati-css/)
 
 ## Run Locally
 
@@ -87,3 +87,24 @@ function App() {
   return <Button />;
 }
 ```
+
+## Automation Deployment
+
+**Do you know what is cool about this project?**
+The Automation deployment : D
+
+Whenever I make any change in my library, commit and push in main branch, then GitHub CI/CD will run all tests automatically, build, and deploy it.
+We dont have to write all commands like, `npm install`, `npm build`, `npm deploy`, etc etc.
+
+I have added this automation process for Storybook as well.
+
+### Automation Deployment Screenshot
+
+**Failed because of same version, We always need to update the library version:**
+![](https://github.com/PrateekSrivastava1/media/assets/65366517/78d60aec-6533-4bdc-a18b-54675bae4a84)
+
+**Successfull deployment for Library (package):**
+![](https://github.com/PrateekSrivastava1/media/assets/65366517/41ac3ff6-8488-41f3-b516-378708ab9ec7)
+
+**Successfull deployment for Storybook:**
+![](https://github.com/PrateekSrivastava1/media/assets/65366517/5006f48f-a988-44ef-85f3-92ef73736818)
