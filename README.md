@@ -26,6 +26,10 @@ Install nahi-aati-css with npm
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+## Click here to play with UI Components :p
+
+[nahi-aati-css](https://prateeksrivastava1.github.io/nahi-aati-css/)
+
 ## Run Locally
 
 Clone the project
