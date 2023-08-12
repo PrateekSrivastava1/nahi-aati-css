@@ -1,10 +1,7 @@
+
 # nahi-aati-css
 
 nahi-aati-css is a lightweight and user-friendly CSS library, offering pre-designed styles for typography, buttons, forms, and etc. With a mobile-first approach, it simplifies web development, ensuring responsive and visually appealing designs.
-
-## Badges
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 ## Contributing
 
@@ -24,11 +21,13 @@ Install nahi-aati-css with npm
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 ## Want to play with some UI Components? just click on the link given below : D
 
 [**nahi-aati-css**](https://prateeksrivastava1.github.io/nahi-aati-css/)
+
+<img width="1512" alt="Screenshot 2023-08-12 at 8 22 30 PM" src="https://github.com/PrateekSrivastava1/nahi-aati-css/assets/65366517/58c9a937-fa77-4e07-9d1c-df7efd5c307e">
 
 ## Run Locally
 
@@ -50,21 +49,11 @@ Install dependencies
   yarn install
 ```
 
-Start React app
-
-```bash
-  npm start
-```
-
 Start Storybook
 
 ```bash
   yarn storybook
 ```
-
-## Screenshots
-
-![](https://github.com/PrateekSrivastava1/media/assets/65366517/a3cb343b-169b-44ba-82e7-2d40c079a968)
 
 ## Tech Stack
 
@@ -111,10 +100,12 @@ This automated deployment process ensures that the library is always up-to-date 
 ### Automated Deployment Screenshot
 
 **Failed because of same version, We always need to update the library version:**
-![](https://github.com/PrateekSrivastava1/media/assets/65366517/78d60aec-6533-4bdc-a18b-54675bae4a84)
+<img width="1512" alt="Screenshot 2023-08-12 at 8 25 06 PM" src="https://github.com/PrateekSrivastava1/nahi-aati-css/assets/65366517/9a62694d-cb60-492a-8aaf-1780fdfa8e03">
 
 **Successfull deployment for Library (package)**
-![](https://github.com/PrateekSrivastava1/media/assets/65366517/41ac3ff6-8488-41f3-b516-378708ab9ec7)
+<img width="1512" alt="Screenshot 2023-08-12 at 8 25 32 PM" src="https://github.com/PrateekSrivastava1/nahi-aati-css/assets/65366517/7cf9c6a7-0f75-4512-be1c-309dae3caa96">
+
+
 
 **Successfull deployment for Storybook**
-![](https://github.com/PrateekSrivastava1/media/assets/65366517/5006f48f-a988-44ef-85f3-92ef73736818)
+<img width="1512" alt="Screenshot 2023-08-12 at 8 27 05 PM" src="https://github.com/PrateekSrivastava1/nahi-aati-css/assets/65366517/ed075c42-2095-41a7-83b8-30a3bdf36cb3">
